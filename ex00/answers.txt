@@ -1,0 +1,5 @@
+conda list
+conda search numpy --info
+conda remove numpy -y
+conda install numpy -y
+pip freeze > requirements.txt
